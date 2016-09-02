@@ -1,18 +1,17 @@
 <template>
-  <div class="page">
-    <counter></counter>
-    <p>
-      To get started, edit files in <code>./client</code> and save.
-    </p>
+  <div class="row">
+    <div class="col-md-3" style="border-right:1px solid">
+      <PageList></PageList>
+    </div>
+    <div class="col-md-9">Detail</div>
   </div>
 </template>
 
 <script>
-import Counter from '../components/Counter'
-
+import PageList from '../components/PageList.vue'
 export default {
   components: {
-    Counter
+    PageList
   }
 }
 </script>

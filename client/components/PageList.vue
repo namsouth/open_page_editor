@@ -1,18 +1,15 @@
 <template>
-    <div>
-        <header-component/>
-        <div>this is template body</div>
-        <other-component/>
-    </div>
+  <ul class="list-group">
+    <li v-for="" class="list-group-item">
+      {{msg}}
+      <p style="color:lightgrey;font-size:0.7em">{{msg}}</p>
+    </li>
+  </ul>
 </template>
 <style>
-    body{
-        background-color:#ff0000;
-    }
+
 </style>
 <script>
-    import HeaderComponent from './components/header.vue'
-    import OtherComponent from './components/other.vue'
     export default{
         data(){
             return{
@@ -20,8 +17,6 @@
             }
         },
         components:{
-            'other-component':OtherComponent,
-            HeaderComponent,
         }
     }
 </script>

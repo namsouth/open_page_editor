@@ -1,8 +1,9 @@
 <template>
-  <div class="row">
-    <div class="col-md-3">Sub-route</div>
-    <div class="col-md-5">Form</div>
-    <div class="col-md-4">List</div>
+  <div class="page">
+    <counter></counter>
+    <p>
+      To get started, edit files in <code>./client</code> and save.
+    </p>
   </div>
 </template>
 
